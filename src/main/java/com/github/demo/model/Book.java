@@ -10,6 +10,8 @@ public class Book {
     private String author;
 
     private String cover;
+    
+    private String ISBN;
 
     public Book() {
 
@@ -26,6 +28,14 @@ public class Book {
         this.cover = cover;
     }
 
+    public String getISBN() {
+        return this.ISBN;
+    }
+    
+    public void setISBN(String isbn) {
+        this.ISBN=isbn;
+    }
+    
     public String getTitle() {
         return title;
     }
